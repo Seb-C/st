@@ -59,7 +59,7 @@ static char termname[] = "st-256color";
 static unsigned int tabspaces = 4;
 
 /* background opacity */
-static const int alpha = 0xcd;
+static const int alpha = 0xFF;
 
 /**
  * Solarized dark scheme (http://ethanschoonover.com/solarized)
@@ -67,9 +67,9 @@ static const int alpha = 0xcd;
  */
 static const char *colorname[] = {
     /* solarized dark */
-    "#073642",  /*   0: black    */
-    "#dc322f",  /*   1: red      */
-    "#859900",  /*   2: green    */
+    "#000000",  /*   0: black    */
+    "#FF0000",  /*   1: red      */
+    "#00CC00",  /*   2: green    */
     "#b58900",  /*   3: yellow   */
     "#268bd2",  /*   4: blue     */
     "#d33682",  /*   5: magenta  */
@@ -96,7 +96,7 @@ static const char *colorname[] = {
  */
 static unsigned int defaultfg = 257;
 static unsigned int defaultbg = 256;
-static unsigned int defaultcs = 14;
+static unsigned int defaultcs = 1;
 static unsigned int defaultrcs = 257;
 
 /*
